@@ -33,7 +33,7 @@ A web application that uses a Python script to launch a local server and display
    - Create a new database (e.g., `quiz_db`)
    - Select the newly created database
    - Click on the "Import" tab in the top navigation menu
-   - Click "Choose File" and select the `database.sql` file from the project directory
+   - Click "Choose File" and select the `Quizziee.sql` file from the project directory
    - Click "Go" to import the database structure and data
    - Verify that all tables have been created successfully
 
