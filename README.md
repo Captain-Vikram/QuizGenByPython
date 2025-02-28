@@ -16,8 +16,8 @@ A web application that uses a Python script to launch a local server and display
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/java-mini-project.git
-   cd java-mini-project
+   git clone https://github.com/yourusername/QuizGenByPython.git
+   cd QuizGenByPython
    ```
 
 2. **Install PyQt5**
