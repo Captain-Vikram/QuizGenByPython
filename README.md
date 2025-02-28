@@ -16,7 +16,7 @@ A web application that uses a Python script to launch a local server and display
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/QuizGenByPython.git
+   git clone https://github.com/Captain-Vikram/QuizGenByPython.git
    cd QuizGenByPython
    ```
 
@@ -40,7 +40,7 @@ C:/xampp/htdocs/web/
 ├── authenticate.php
 └── ... (other web files)
 
-C:/Users/konth/Desktop/Practical reports/JAVA Mini Project/web/
+C:/Users/<your_perferred_folder>/
 └── launch.py
 ```
 
