@@ -1,5 +1,4 @@
 # Python Mini Project - Web Application
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
 [![XAMPP](https://img.shields.io/badge/XAMPP-8.0+-orange.svg)](https://www.apachefriends.org/)
@@ -29,6 +28,15 @@ A web application that uses a Python script to launch a local server and display
    - Download and install XAMPP from [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)
    - Start the Apache and MySQL services from the XAMPP control panel
 
+4. **Import SQL Database**
+   - Open your web browser and navigate to `http://localhost/phpmyadmin/`
+   - Create a new database (e.g., `quiz_db`)
+   - Select the newly created database
+   - Click on the "Import" tab in the top navigation menu
+   - Click "Choose File" and select the `database.sql` file from the project directory
+   - Click "Go" to import the database structure and data
+   - Verify that all tables have been created successfully
+
 ## 📂 Directory Structure
 
 ```
@@ -40,7 +48,7 @@ C:/xampp/htdocs/web/
 ├── authenticate.php
 └── ... (other web files)
 
-C:/Users/<your_perferred_folder>/
+C:/Users/<your_preferred_folder>/
 └── launch.py
 ```
 
@@ -68,6 +76,7 @@ C:/Users/<your_perferred_folder>/
 - The `launch.py` script assumes that your web files are correctly placed in the `C:/xampp/htdocs/web/` directory
 - The `authenticate.php` file is assumed to handle authentication logic
 - Replace the example paths with your actual paths
+- Make sure the database connection settings in your PHP files match the database name you created
 
 ## 📝 License
 
